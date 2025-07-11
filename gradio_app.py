@@ -20,7 +20,7 @@ def free_resources(sidekick):
     print("Cleaning up")
     try:
         if sidekick:
-            sidekick.free_resources()
+            sidekick.cleanup()
     except Exception as e:
         print(f"Exception during cleanup: {e}")
 
