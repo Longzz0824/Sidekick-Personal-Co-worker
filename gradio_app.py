@@ -48,3 +48,4 @@ with gr.Blocks(title="Sidekick", theme=gr.themes.Default(primary_hue="emerald"))
 
     
 ui.launch(inbrowser=True)
+#存在某些问题，无法正常运行
